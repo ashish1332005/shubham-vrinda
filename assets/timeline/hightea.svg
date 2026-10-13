@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+    <defs>
+      <radialGradient id="teaGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#fff5f5" stop-opacity="0.9"/>
+        <stop offset="70%" stop-color="#fae8e8" stop-opacity="0.6"/>
+        <stop offset="100%" stop-color="#fae8e8" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="roseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#be6b7b"/>
+        <stop offset="100%" stop-color="#d99b9b"/>
+      </linearGradient>
+      <linearGradient id="teaGold" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#c5a059"/>
+        <stop offset="100%" stop-color="#dfc282"/>
+      </linearGradient>
+    </defs>
+    <circle cx="60" cy="60" r="54" fill="url(#teaGlow)"/>
+    <!-- Saucer -->
+    <ellipse cx="60" cy="78" rx="34" ry="7" fill="url(#teaGold)" opacity="0.3"/>
+    <ellipse cx="60" cy="76" rx="32" ry="6" fill="#fff" stroke="url(#teaGold)" stroke-width="1.5"/>
+    <ellipse cx="60" cy="76" rx="22" ry="3" fill="#f5ede0"/>
+    <!-- Teacup -->
+    <path d="M40,50 L42,68 C44,74 52,76 60,76 C68,76 76,74 78,68 L80,50 Z" fill="#ffffff" stroke="url(#teaGold)" stroke-width="1.5"/>
+    <ellipse cx="60" cy="50" rx="20" ry="4" fill="#a06040"/>
+    <ellipse cx="60" cy="50" rx="18" ry="3" fill="#784225"/>
+    <!-- Handle -->
+    <path d="M80,53 C87,53 88,64 77,66" fill="none" stroke="url(#teaGold)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Steam / Aroma -->
+    <path d="M53,42 C51,36 57,32 55,26" fill="none" stroke="url(#roseGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M62,40 C60,34 66,30 64,24" fill="none" stroke="url(#roseGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <!-- Floral sprig -->
+    <circle cx="34" cy="70" r="4" fill="url(#roseGrad)"/>
+    <circle cx="30" cy="66" r="3" fill="#697f59"/>
+    <circle cx="86" cy="70" r="4" fill="url(#roseGrad)"/>
+    <circle cx="90" cy="66" r="3" fill="#697f59"/>
+  </svg>

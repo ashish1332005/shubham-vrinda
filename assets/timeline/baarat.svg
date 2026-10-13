@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+    <defs>
+      <radialGradient id="safaGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#fff3e6" stop-opacity="0.9"/>
+        <stop offset="70%" stop-color="#fde8d0" stop-opacity="0.6"/>
+        <stop offset="100%" stop-color="#fde8d0" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="safaOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ea580c"/>
+        <stop offset="50%" stop-color="#f97316"/>
+        <stop offset="100%" stop-color="#facc15"/>
+      </linearGradient>
+    </defs>
+    <circle cx="60" cy="60" r="54" fill="url(#safaGlow)"/>
+    <!-- Kalangi / Royal Brooch & Feather -->
+    <path d="M60,20 C58,26 60,34 62,38 C60,34 56,26 60,20 Z" fill="#0284c7"/>
+    <path d="M63,22 C66,28 66,36 62,38 C64,36 68,28 63,22 Z" fill="#0284c7"/>
+    <circle cx="60" cy="38" r="3.5" fill="#eab308" stroke="#854d0e" stroke-width="1"/>
+    <!-- Safa Pagdi Turban Folds -->
+    <path d="M36,58 C36,46 48,40 60,40 C72,40 84,46 84,58 C80,66 70,68 60,68 C50,68 40,66 36,58 Z" fill="url(#safaOrange)" stroke="#c2410c" stroke-width="1.2"/>
+    <!-- Swirl Folds -->
+    <path d="M38,54 C46,46 72,46 82,54" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+    <path d="M40,60 C50,52 70,52 80,60" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+    <!-- Trailing Turban Cloth (Palla) -->
+    <path d="M76,64 C82,72 84,84 80,92 C76,90 76,78 74,68 Z" fill="url(#safaOrange)" opacity="0.9"/>
+    <!-- Marigold garland accents -->
+    <circle cx="34" cy="72" r="3.5" fill="#f59e0b"/>
+    <circle cx="42" cy="76" r="3.5" fill="#f59e0b"/>
+    <circle cx="50" cy="78" r="3.5" fill="#f59e0b"/>
+  </svg>

@@ -1,0 +1,18 @@
+{
+  "name": "bloom-template-wedding",
+  "version": "1.0.0",
+  "description": "Exact replica of Bloom Wedding Invitation Template from thedigitalyes.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "wedding",
+    "invitation",
+    "bloom-template",
+    "thedigitalyes"
+  ],
+  "author": "The Digital Yes",
+  "license": "MIT"
+}

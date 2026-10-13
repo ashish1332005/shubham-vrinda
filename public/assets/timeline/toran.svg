@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+    <defs>
+      <radialGradient id="toranGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#fff9ea" stop-opacity="0.9"/>
+        <stop offset="70%" stop-color="#fdf1c9" stop-opacity="0.6"/>
+        <stop offset="100%" stop-color="#fdf1c9" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <circle cx="60" cy="60" r="54" fill="url(#toranGlow)"/>
+    <!-- Main Arch / String -->
+    <path d="M22,46 Q60,64 98,46" fill="none" stroke="#d97706" stroke-width="2.5"/>
+    <!-- Mango Leaves (Aam ke Patte) hanging -->
+    <path d="M30,48 C28,58 32,66 34,70 C36,66 40,58 38,48 Z" fill="#697f59"/>
+    <path d="M46,52 C44,62 48,70 50,74 C52,70 56,62 54,52 Z" fill="#697f59"/>
+    <path d="M60,54 C58,64 62,72 64,76 C66,72 70,64 68,54 Z" fill="#4d623e"/>
+    <path d="M74,52 C72,62 76,70 78,74 C80,70 84,62 82,52 Z" fill="#697f59"/>
+    <path d="M90,48 C88,58 92,66 94,70 C96,66 100,58 98,48 Z" fill="#697f59"/>
+    <!-- Marigold Flowers along toran -->
+    <circle cx="24" cy="46" r="5" fill="#f59e0b"/>
+    <circle cx="38" cy="50" r="5" fill="#ea580c"/>
+    <circle cx="52" cy="53" r="5" fill="#f59e0b"/>
+    <circle cx="66" cy="53" r="5" fill="#ea580c"/>
+    <circle cx="80" cy="50" r="5" fill="#f59e0b"/>
+    <circle cx="96" cy="46" r="5" fill="#ea580c"/>
+    <!-- Dangling Bell / Latkan -->
+    <line x1="60" y1="54" x2="60" y2="82" stroke="#b45309" stroke-width="1.2"/>
+    <circle cx="60" cy="85" r="4" fill="#eab308"/>
+  </svg>

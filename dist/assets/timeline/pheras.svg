@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+    <defs>
+      <radialGradient id="ringGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#fff8ed" stop-opacity="0.9"/>
+        <stop offset="70%" stop-color="#fdedd0" stop-opacity="0.6"/>
+        <stop offset="100%" stop-color="#fdedd0" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="goldRing" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#c5a059"/>
+        <stop offset="40%" stop-color="#fef08a"/>
+        <stop offset="100%" stop-color="#a16207"/>
+      </linearGradient>
+      <linearGradient id="flameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+        <stop offset="0%" stop-color="#dc2626"/>
+        <stop offset="50%" stop-color="#ea580c"/>
+        <stop offset="100%" stop-color="#fde047"/>
+      </linearGradient>
+    </defs>
+    <circle cx="60" cy="60" r="54" fill="url(#ringGlow)"/>
+    <!-- Intertwined Wedding Rings (exact replica of Image 2 motif!) -->
+    <!-- Left Ring -->
+    <ellipse cx="48" cy="60" rx="17" ry="17" fill="none" stroke="url(#goldRing)" stroke-width="4.5"/>
+    <!-- Right Ring -->
+    <ellipse cx="72" cy="60" rx="17" ry="17" fill="none" stroke="url(#goldRing)" stroke-width="4.5"/>
+    <ellipse cx="48" cy="60" rx="17" ry="17" fill="none" stroke="url(#goldRing)" stroke-width="4.5" stroke-dasharray="10 30" stroke-dashoffset="15"/>
+    <!-- Sacred Agni / Flame in center -->
+    <path d="M60,68 C54,64 54,54 60,46 C66,54 66,64 60,68 Z" fill="url(#flameGrad)" opacity="0.9"/>
+    <path d="M60,66 C57,63 57,56 60,50 C63,56 63,63 60,66 Z" fill="#fef08a"/>
+    <!-- Botanical garland wrapping rings (Image 2 style) -->
+    <path d="M30,70 C34,78 44,82 54,80" fill="none" stroke="#697f59" stroke-width="1.5"/>
+    <circle cx="34" cy="74" r="2.5" fill="#697f59"/>
+    <circle cx="42" cy="78" r="2.5" fill="#697f59"/>
+    <circle cx="50" cy="80" r="2.5" fill="#697f59"/>
+    <path d="M66,80 C76,82 86,78 90,70" fill="none" stroke="#697f59" stroke-width="1.5"/>
+    <circle cx="70" cy="80" r="2.5" fill="#697f59"/>
+    <circle cx="78" cy="78" r="2.5" fill="#697f59"/>
+    <circle cx="86" cy="74" r="2.5" fill="#697f59"/>
+    <!-- Small rose blossom -->
+    <circle cx="60" cy="78" r="4" fill="#be6b7b"/>
+    <circle cx="60" cy="78" r="2" fill="#e2a3aa"/>
+  </svg>

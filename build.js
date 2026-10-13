@@ -1,16 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-const dist = path.join(__dirname, 'dist');
-if (fs.existsSync(dist)) {
-  fs.rmSync(dist, { recursive: true, force: true });
-}
-fs.mkdirSync(dist, { recursive: true });
-
-// Copy index.html
-fs.copyFileSync(path.join(__dirname, 'index.html'), path.join(dist, 'index.html'));
-
-// Copy assets folder recursively
 function copyDir(src, dest) {
   fs.mkdirSync(dest, { recursive: true });
   for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
@@ -24,5 +14,16 @@ function copyDir(src, dest) {
   }
 }
 
-copyDir(path.join(__dirname, 'assets'), path.join(dist, 'assets'));
-console.log('Build complete! Successfully generated dist/ directory with index.html and assets.');
+['dist', 'public'].forEach(folder => {
+  const targetDir = path.join(__dirname, folder);
+  if (fs.existsSync(targetDir)) {
+    fs.rmSync(targetDir, { recursive: true, force: true });
+  }
+  fs.mkdirSync(targetDir, { recursive: true });
+  fs.copyFileSync(path.join(__dirname, 'index.html'), path.join(targetDir, 'index.html'));
+  copyDir(path.join(__dirname, 'assets'), path.join(targetDir, 'assets'));
+  console.log(`Generated ${folder}/ directory with index.html and assets.`);
+});
+
+console.log('Build complete! Both dist/ and public/ are ready.');
+

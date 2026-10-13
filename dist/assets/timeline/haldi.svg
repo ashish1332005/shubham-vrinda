@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+    <defs>
+      <radialGradient id="haldiGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#fff8db" stop-opacity="0.9"/>
+        <stop offset="70%" stop-color="#fcedb3" stop-opacity="0.6"/>
+        <stop offset="100%" stop-color="#f4e49c" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="petalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#e89d24"/>
+        <stop offset="50%" stop-color="#f5b338"/>
+        <stop offset="100%" stop-color="#fcd34d"/>
+      </linearGradient>
+      <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#697f59"/>
+        <stop offset="100%" stop-color="#93a880"/>
+      </linearGradient>
+    </defs>
+    <circle cx="60" cy="60" r="54" fill="url(#haldiGlow)"/>
+    <!-- Botanical leaves -->
+    <path d="M28,62 C18,52 22,36 38,40 C44,48 38,58 28,62 Z" fill="url(#leafGrad)" opacity="0.85"/>
+    <path d="M92,62 C102,52 98,36 82,40 C76,48 82,58 92,62 Z" fill="url(#leafGrad)" opacity="0.85"/>
+    <path d="M50,88 C40,96 28,90 32,76 C40,74 48,80 50,88 Z" fill="url(#leafGrad)" opacity="0.75"/>
+    <path d="M70,88 C80,96 92,90 88,76 C80,74 72,80 70,88 Z" fill="url(#leafGrad)" opacity="0.75"/>
+    <!-- Outer Marigold Petals -->
+    <g fill="url(#petalGrad)">
+      <circle cx="60" cy="36" r="10" opacity="0.95"/>
+      <circle cx="77" cy="43" r="10" opacity="0.95"/>
+      <circle cx="84" cy="60" r="10" opacity="0.95"/>
+      <circle cx="77" cy="77" r="10" opacity="0.95"/>
+      <circle cx="60" cy="84" r="10" opacity="0.95"/>
+      <circle cx="43" cy="77" r="10" opacity="0.95"/>
+      <circle cx="36" cy="60" r="10" opacity="0.95"/>
+      <circle cx="43" cy="43" r="10" opacity="0.95"/>
+      <!-- Inner layer -->
+      <circle cx="60" cy="44" r="9" fill="#d97706"/>
+      <circle cx="71" cy="49" r="9" fill="#d97706"/>
+      <circle cx="76" cy="60" r="9" fill="#d97706"/>
+      <circle cx="71" cy="71" r="9" fill="#d97706"/>
+      <circle cx="60" cy="76" r="9" fill="#d97706"/>
+      <circle cx="49" cy="71" r="9" fill="#d97706"/>
+      <circle cx="44" cy="60" r="9" fill="#d97706"/>
+      <circle cx="49" cy="49" r="9" fill="#d97706"/>
+      <!-- Center core -->
+      <circle cx="60" cy="60" r="10" fill="#b45309"/>
+      <circle cx="60" cy="60" r="6" fill="#fef08a"/>
+    </g>
+  </svg>

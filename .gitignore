@@ -1,5 +1,5 @@
 node_modules/
-dist/
 *.bak
 .DS_Store
 Thumbs.db
+

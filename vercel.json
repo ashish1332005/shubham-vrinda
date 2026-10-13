@@ -1,11 +1,15 @@
 {
-  "buildCommand": "node build.js",
   "outputDirectory": "dist",
   "cleanUrls": false,
   "rewrites": [
     {
-      "source": "/((?!assets/).*)",
+      "source": "/assets/(.*)",
+      "destination": "/assets/$1"
+    },
+    {
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
 }
+

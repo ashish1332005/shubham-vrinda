@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+    <defs>
+      <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#faf5ea" stop-opacity="0.9"/>
+        <stop offset="70%" stop-color="#faebd7" stop-opacity="0.6"/>
+        <stop offset="100%" stop-color="#faebd7" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="ballGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#d4af37"/>
+        <stop offset="50%" stop-color="#f3e5ab"/>
+        <stop offset="100%" stop-color="#b8860b"/>
+      </linearGradient>
+    </defs>
+    <circle cx="60" cy="60" r="54" fill="url(#starGlow)"/>
+    <!-- Hanging Chain -->
+    <line x1="60" y1="12" x2="60" y2="34" stroke="#c5a059" stroke-width="1.5" stroke-dasharray="2,2"/>
+    <circle cx="60" cy="34" r="3" fill="#b8860b"/>
+    <!-- Disco Ball -->
+    <circle cx="60" cy="62" r="26" fill="#fdfbf7" stroke="#b8860b" stroke-width="1"/>
+    <!-- Mirror facets grid -->
+    <g stroke="#c5a059" stroke-width="0.8" opacity="0.75" fill="#f5ede0">
+      <ellipse cx="60" cy="62" rx="26" ry="10" fill="none"/>
+      <ellipse cx="60" cy="62" rx="26" ry="19" fill="none"/>
+      <ellipse cx="60" cy="62" rx="10" ry="26" fill="none"/>
+      <ellipse cx="60" cy="62" rx="19" ry="26" fill="none"/>
+      <line x1="34" y1="62" x2="86" y2="62"/>
+    </g>
+    <!-- Facet glints -->
+    <rect x="52" y="54" width="4" height="4" fill="#ffffff" opacity="0.9"/>
+    <rect x="64" y="60" width="4" height="4" fill="#ffffff" opacity="0.9"/>
+    <rect x="58" y="68" width="4" height="4" fill="#ffffff" opacity="0.9"/>
+    <!-- Botanical garland behind -->
+    <path d="M38,44 C30,48 30,66 38,72" fill="none" stroke="#697f59" stroke-width="1.5"/>
+    <circle cx="32" cy="50" r="3" fill="#697f59"/>
+    <circle cx="30" cy="60" r="3" fill="#697f59"/>
+    <circle cx="34" cy="70" r="3" fill="#697f59"/>
+    <!-- Stars & sparkles -->
+    <path d="M88,40 L90,46 L96,48 L90,50 L88,56 L86,50 L80,48 L86,46 Z" fill="#eab308"/>
+    <path d="M30,30 L31,34 L35,35 L31,36 L30,40 L29,36 L25,35 L29,34 Z" fill="#eab308"/>
+    <path d="M86,76 L87,80 L91,81 L87,82 L86,86 L85,82 L81,81 L85,80 Z" fill="#eab308"/>
+    <circle cx="92" cy="66" r="2" fill="#c5a059"/>
+  </svg>

@@ -1,18 +1,17 @@
 {
-  "name": "bloom-template-wedding",
+  "name": "shubham-vrinda",
   "version": "1.0.0",
-  "description": "Exact replica of Bloom Wedding Invitation Template from thedigitalyes.com",
-  "main": "server.js",
+  "description": "Wedding Invitation - Shubham & Vrinda",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "echo 'Static site ready'"
   },
   "keywords": [
     "wedding",
     "invitation",
-    "bloom-template",
-    "thedigitalyes"
+    "shubham-vrinda"
   ],
-  "author": "The Digital Yes",
+  "author": "Shubham & Vrinda",
   "license": "MIT"
 }
